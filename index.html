@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>qa_katya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scc/main.css">
+    <script src="js/app.js" defer></script>
+    <script src="libs/snowfall.jquery.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <link rel="icon" type="images/x-icon" href="favicon/stars_icon_255337.ico">
+</head>
+<body>
+    
+<section class="layers">
+   <div class="layers__container">
+     <div class="layers__item layer-1" style="background-image: url(img/image.jpg);"></div>
+     <div class="layers__item layer-2" style="background-image: url(img/stars.png);"></div>
+     <div class="layers__item layer-3">
+        <div class="hero-content">
+           <h1>ПРИВЕТ, Я - Катя <span>Я - QA ENGINEER</span></h1>
+           <div class="hero-content__p">и я готова протестировать ваш сайт</div>
+           <button class="button-start"><a href="https://t.me/sl_lastovka" class="btn">Связаться со мной</a></button>
+        </div>
+    </div>
+     <div class="layers__item layer-4">
+      <canvas class="snowfall.jquery.min.js"></canvas>
+     </div>
+     <div class="layers__item layer-5" style="background-image: url(img/snow.png);"></div>
+
+ </div>
+
+</section>
+
+
+
+
+<script>
+
+  $(document).ready(function() {
+
+    $(document).snowfall({
+            flakeCount: 10 // Количество снежинок
+    });
+
+  });
+
+</script>
+</body>
+</html>
